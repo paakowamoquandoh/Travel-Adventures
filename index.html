@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./media/icons/passport.png">
+  
+  <title>Travel Africa</title>
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+
+<body>
+  <!--header below-->
+  <header class="header" id="header">
+    <nav class="container headerNav">
+      <a href="./index.html" class="logoArea">
+        <h1><b>Travel<span><i style="color: rgb(5, 75, 141);">Af</i></span></b></h1>
+        <img src="./media/icons/passport.png" alt="travel docs" height="50px" width="50px">
+      </a>
+      <div class="menuToggle menuOpen" id="menuOpen">
+        <ion-icon size="large" name="grid"></ion-icon>
+      </div>
+    </div>
+
+      <div class="navMenu" id="navMenuMobile">
+        <ul class="navUl">
+          <li class="navUlItem">
+            <a href="" class="navUlLink">Guide</a>
+          </li>
+          <li class="navUlItem">
+            <a href="" class="navUlLink">About Us</a>
+          </li>
+          <li class="navUlItem">
+            <a href="" class="navUlLink">Blog</a>
+          </li>
+          <li class="navUlItem largeScreenHide">
+            <a href="" class="navUlLink">Account</a>
+          </li>
+        </ul> 
+        
+
+        <div class="menuToggle menuClose" id="menuClose">
+          <ion-icon size="large" name="close-circle"></ion-icon>
+        </div>
+
+        <a href="" class="navAccLink smallScreenHide place-items-center">
+          <ion-icon size="large" name="person-circle"></ion-icon>Account
+        </a>
+
+        <!-- <div class="menuToggle menuOpen" id="menuOpen">
+          <ion-icon size="large" name="menu-outline"></ion-icon>
+        </div> -->
+      </div>
+    </nav>
+  </header>
+
+
+  <!--cover section-->
+  <main class="cover">
+
+    <section class="cover">
+      <div class="coverContainer container">
+        <div class="coverData" id="coverData">
+          <span class="textLine">An Africa Tour Guide</span>
+          <h1 class="heading coverHeading">Experience Africas Amazing Landscape!</h1>
+          <a href="#tourInfo" class="btn scrollDownBtn">
+            View More <ion-icon size="large" name="arrow-down"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <img src="./media/images/land4.jpg" class="scrollableImage scrollImgTop" id="sunshine" alt="">
+      <img src="./media/images/landtop.jpg" class="scrollableImage scrollImgCenter" id="river" alt="">
+
+      <div id="" class="carousel slide scrollableImage scrollImgDown" data-mdb-ride="carousel">
+        <div class="carousel-inner" id="skies">
+          <div class="carousel-item active">
+            <img src="./media/images/landbottom2.jpg" class="d-block w-100" id="carImg" alt="Wild Landscape"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./media/images/landbottom1.jpg" class="d-block w-100" id="carImg1" alt="Camera"/>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!--info section-->
+  <section class="tourInfo" id="tourInfo">
+        <div class="container cardContainer">
+          <div class="card d-grid">
+            <img src="./media/images/kylefromthenorth-UrhglJ-2Q8M-unsplash.jpg" alt="" class="cardImg cardImgCenter">
+            <div class="cardInfo">
+              <span class="number">01</span>
+              <span class="textLine">Get started</span>
+              <h2 class="heading cardHeading">Discover Africa's Tropical Beaches</h2>
+              <p class="cardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi? Impedit dolorem illum cum consequatur ea eius ratione repellat. Facilis repellat non itaque optio enim deserunt quis saepe ullam temporibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem sequi voluptate eius ut recusandae at nulla voluptatibus nemo, debitis sed vitae id placeat culpa aut aliquam. Unde, sapiente placeat.
+              </p>
+              <a href="" class="btn scrollMoreBtn">
+                Read More
+                <ion-icon name="arrow-forward"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="card d-grid">
+            <img src="./media/images/cardImg.jpg"  alt="" class="cardImg order cardImgCenter">
+            <div class="cardInfo">
+              <span class="number">02</span>
+              <span class="textLine">Get started</span>
+              <h2 class="heading cardHeading">Experience Africa's National parks</h2>
+              <p class="cardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi? Impedit dolorem illum cum consequatur ea eius ratione repellat. Facilis repellat non itaque optio enim deserunt quis saepe ullam temporibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem sequi voluptate eius ut recusandae at nulla voluptatibus nemo, debitis sed vitae id placeat culpa aut aliquam. Unde, sapiente placeat.
+              </p>
+              <a href="" class="btn scrollMoreBtn">
+                Read More
+                <ion-icon name="arrow-forward"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="card d-grid">
+            <img src="./media/images/landtop2.jpg" alt="" class="cardImg cardImgCenter">
+            <div class="cardInfo">
+              <span class="number">03</span>
+              <span class="textLine">Get started</span>
+              <h2 class="heading cardHeading">Feel the sunshine on Africas' Safari</h2>
+              <p class="cardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi? Impedit dolorem illum cum consequatur ea eius ratione repellat. Facilis repellat non itaque optio enim deserunt quis saepe ullam temporibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem sequi voluptate eius ut recusandae at nulla voluptatibus nemo, debitis sed vitae id placeat culpa aut aliquam. Unde, sapiente placeat.
+              </p>
+              <a href="" class="btn scrollMoreBtn">
+                Read More
+                <ion-icon name="arrow-forward"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="card d-grid">
+            <img src="./media/images/land2.jpg" alt="" class="cardImg  order cardImgCenter">
+            <div class="cardInfo">
+              <span class="number">04</span>
+              <span class="textLine">Get started</span>
+              <h2 class="heading cardHeading">See More Tourist Sites accross Africa</h2>
+              <p class="cardDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, commodi? Impedit dolorem illum cum consequatur ea eius ratione repellat. Facilis repellat non itaque optio enim deserunt quis saepe ullam temporibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem sequi voluptate eius ut recusandae at nulla voluptatibus nemo, debitis sed vitae id placeat culpa aut aliquam. Unde, sapiente placeat.
+              </p>
+              <a href="" class="btn scrollMoreBtn">
+                Read More
+                <ion-icon name="arrow-forward"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+ 
+        
+
+    <footer class="footer">
+      <!-- Grid container -->
+      <div class="container footerContainer">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div class="brandInfo">
+              <a href="./index.html" class="logoArea">
+                <h1><b>Travel<span><i style="color: rgb(5, 75, 141);">Ad</i></span></b></h1>
+                <img src="./media/icons/passport.png" alt="travel docs" height="50px" width="50px">
+              </a>Tropics and Safari.</p>
+              <span class="copyright">&copy; 2022 TravelAf, Inc. All rights reserved</span>
+             </div>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="footerEndGroup">
+              <h6 class="footerEndTitle">More on the Blog</h6>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+            </div>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="footerEndGroup">
+              <h6 class="footerEndTitle">More on the TravelAf</h6>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+              <a href="#" class="footerLink navLink">Africas' Item</a>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+       <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Images -->
+          <section class="">
+            <div class="row">
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <img
+                    src="./media/images/lioncubs.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                  </a>
+                  <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <img
+                    src="./media/images/foot1.jpg.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                  </a>
+                  <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <img
+                    src="./media/images/foot2.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <img
+                    src="./media/images/foot3.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <img
+                    src="./media/images/foot4.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <img
+                    src="./media/images/foot5.jpg"
+                    class="w-100"
+                  />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Images -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <footer class="text-center text-white fixed-bottom" style="background-color: rgb(4, 62, 85);">
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <span class="copyright">&copy; 2022 TravelAf, Inc. All rights reserved</span>
+      </div>
+      <!-- Copyright -->
+    </footer>
+ 
+
+
+ 
+ 
+  <!--body ends here-->
+  
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js"
+></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
