@@ -22,8 +22,8 @@ closeMenu.addEventListener("click", () => {
 window.addEventListener("scroll", ()=>{
     let scrollPoint = window.scrollY;
 
-    riverImage.style.transform = "translateY(" + -scrollPoint * 0.02 +"%)";
-    skiesImage.style.transform = "translateY(" + -scrollPoint * 0.04 +"%)";
+    
+    skiesImage.style.transform = "translateY(" + -scrollPoint * 0.08 +"%)";
     sunshineImage.style.transform = "translateY(" + -scrollPoint * 0.01 +"%)";
     coverData.style.transform = "translateY(" + scrollPoint * 0.03 +"%)"; 
     coverData.style.transform = 1 - scrollPoint * 0.002; 
