@@ -223,6 +223,12 @@ img{
     
 }
 
+.map iframe{
+   width: 84vw;
+   padding: 1.5rem 0.1rem;
+   margin-left: -10px;
+}
+
 .cardHeading{
     text-align: center;
 }
