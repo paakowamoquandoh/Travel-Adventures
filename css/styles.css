@@ -220,6 +220,20 @@ img{
 
 .coverHeading{
     font-size: var(--extralarge-fontsize);
+    
+}
+
+.cardHeading{
+    text-align: center;
+}
+
+.cardHeading b{
+    color: tomato;
+    font-size: larger;
+}
+
+.cardHeading i{
+    font-size: larger;
 }
 
 .btn{
